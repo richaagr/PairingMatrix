@@ -11,11 +11,11 @@
 <div id="sidebar">
     <ul>
         
-        <li><g:link controller="nameList" action="show">NAMES LIST</g:link></li>
+        <li><g:link controller="nameList" action="show" name="showNameList">NAMES LIST</g:link></li>
         <br />
-        <li><g:link controller="pairingRecord" action="save">ENTER PAIRING RECORD</g:link></li>
+        <li><g:link controller="pairingRecord" action="save" name="savePairingRecord">ENTER PAIRING RECORD</g:link></li>
         <br />
-        <li><g:link controller="pairingStaircase" action="show">PAIRING STAIRCASE</g:link></li>
+        <li><g:link controller="pairingStaircase" action="show" name="showPairingStraircase">PAIRING STAIRCASE</g:link></li>
     </ul>
 </div>
 <div>

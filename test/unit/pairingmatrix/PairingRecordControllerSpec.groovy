@@ -2,7 +2,7 @@ package pairingmatrix
 
 import grails.test.*
 
-class NamesTests extends GrailsUnitTestCase {
+class PairingRecordControllerSpec extends ControllerUnitTestCase {
     protected void setUp() {
         super.setUp()
     }
