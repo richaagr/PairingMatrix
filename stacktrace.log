@@ -1022,3 +1022,59 @@ geb.error.UnresolvablePropertyException: Unable to resolve userId as a property 
 	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
 	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
 	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 22:31:02,569 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userId as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:25)
+2011-09-11 22:31:02,574 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userId as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:25)
+2011-09-11 22:35:00,624 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userId as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:25)
+2011-09-11 22:35:00,687 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userId as a property to set on CreateUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:25)
+2011-09-11 22:37:34,172 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+userTable.collect { it -> it.userId }.contains("1")
+|         |                           |
+[]        []                          false
+
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:32)
+2011-09-11 22:37:34,201 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+userTable.collect { it -> it.userId }.contains("1")
+|         |                           |
+[]        []                          false
+
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:32)

@@ -15,14 +15,22 @@ class userListSpec extends PairingMatrixGebSpec {
 
         then:
         assert at(CreateUserPage)
-        /*userId="1"
-        userName="Richa"
+    }
+
+    def 'should display user details when create is clicked'(){
+        given:
+        to CreateUserPage
+
+        when:
+        userId.value("1")
+        userName.value("Richa")
+        create.click()
 
         then:
         assert at(DisplayListPage)
 
         and:
         userTable.collect { it -> it.userId }.contains("1")
-        userTable.collect { it -> it.userName }.contains("Richa")*/
+        userTable.collect { it -> it.userName }.contains("Richa")
     }
 }

@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="localhost" id="0" name="userListSpec" package="" tests="1" time="19.089" timestamp="2011-09-11T16:36:39">
+  <testsuite errors="0" failures="1" hostname="localhost" id="0" name="PairingRecordControllerSpec" package="pairingmatrix" tests="1" time="0.158" timestamp="2011-09-11T18:57:41">
       <properties />
 
-      <testcase classname="userListSpec" name="should go to create user page when CREATE USER is clicked" time="19.055" />
+      <testcase classname="pairingmatrix.PairingRecordControllerSpec" name="should be able to save pairing record" time="0.156">
+          <failure message="Condition not satisfied:  redirectArgs == [ controller:&apos;PairingStaircase&apos;,action:&apos;show&apos;] |            | [:]          false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
-      <system-out><![CDATA[--Output from should go to create user page when CREATE USER is clicked--
+redirectArgs == [ controller:&apos;PairingStaircase&apos;,action:&apos;show&apos;]
+|            |
+[:]          false
+
+	at pairingmatrix.PairingRecordControllerSpec.should be able to save pairing record(PairingRecordControllerSpec.groovy:20)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from should be able to save pairing record--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from should go to create user page when CREATE USER is clicked--
+      <system-err><![CDATA[--Output from should be able to save pairing record--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="localhost" id="1" name="UserListControllerSpec" package="pairingmatrix" tests="2" time="1.764" timestamp="2011-09-11T18:57:39">
+      <properties />
+
+      <testcase classname="pairingmatrix.UserListControllerSpec" name="should display user list" time="1.467" />
+
+      <testcase classname="pairingmatrix.UserListControllerSpec" name="should be able to create user" time="0.268" />
+
+      <system-out><![CDATA[--Output from should display user list--
+--Output from should be able to create user--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should display user list--
+--Output from should be able to create user--
 ]]></system-err>
 
   </testsuite>

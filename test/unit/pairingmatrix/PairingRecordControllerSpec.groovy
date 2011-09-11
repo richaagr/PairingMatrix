@@ -1,17 +1,23 @@
 package pairingmatrix
 
-import grails.test.*
+import grails.plugin.spock.ControllerSpec
 
-class PairingRecordControllerSpec extends ControllerUnitTestCase {
-    protected void setUp() {
-        super.setUp()
-    }
+class PairingRecordControllerSpec extends ControllerSpec {
 
-    protected void tearDown() {
-        super.tearDown()
-    }
+    def "should be able to save pairing record"(){
+       given:
+        mockDomain(User)
+        mockDomain(PairingRecord)
+        PairingRecordController controller = new PairingRecordController()
+        controller.params.user1 = 'abc'
+        controller.params.user2 = 'def'
+        controller.params.noOfTimesPaired ='2'
 
-    void testSomething() {
+        when:
+        controller.save()
+
+        then:
+        redirectArgs == [ controller:'PairingStaircase',action:'show']
 
     }
 }
