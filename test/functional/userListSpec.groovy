@@ -1,18 +1,28 @@
 import functionalTests.PairingMatrixGebSpec
 import functionalTests.pages.HomePage
 import pairingmatrix.User
+import functionalTests.pages.DisplayListPage
+import functionalTests.pages.CreateUserPage
 
-class userListSpec extends PairingMatrixGebSpec{
+class userListSpec extends PairingMatrixGebSpec {
 
-    def 'should show the existing name list when Names List is clicked'(){
+    def 'should go to create user page when CREATE USER is clicked'() {
         given:
-        new User(userId:"1",userName:"Richa").save(flush:true)
         to HomePage
 
         when:
-        namesList.click()
+        createUser.click()
+
+        then:
+        assert at(CreateUserPage)
+        /*userId="1"
+        userName="Richa"
 
         then:
         assert at(DisplayListPage)
+
+        and:
+        userTable.collect { it -> it.userId }.contains("1")
+        userTable.collect { it -> it.userName }.contains("Richa")*/
     }
 }

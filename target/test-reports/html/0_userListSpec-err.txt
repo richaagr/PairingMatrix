@@ -1,2 +1,2 @@
---Output from should show the existing name list when Names List is clicked--
+--Output from should go to create user page when CREATE USER is clicked--
 

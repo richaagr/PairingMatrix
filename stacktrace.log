@@ -842,3 +842,183 @@ geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as co
 	at geb.Browser.getProperty(Browser.groovy)
 	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
 	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-10 23:04:09,563 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-10 23:04:09,703 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 12:45:16,033 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 12:45:16,048 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 13:03:06,927 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 13:03:06,956 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 13:06:45,015 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 13:06:45,076 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 14:05:37,319 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 14:05:37,383 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 15:54:04,329 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 15:54:04,357 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 16:04:28,091 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 16:04:28,127 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 16:11:34,658 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 16:11:34,658 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 21:42:07,721 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+userTable.collect { it -> it.userId }.contains("1")
+|         |                           |
+[]        []                          false
+
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:20)
+2011-09-11 21:42:07,796 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+userTable.collect { it -> it.userId }.contains("1")
+|         |                           |
+[]        []                          false
+
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:20)
+2011-09-11 21:51:19,928 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userId as a property to set on HomePage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
+2011-09-11 21:51:20,085 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userId as a property to set on HomePage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)

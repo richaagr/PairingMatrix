@@ -6,9 +6,8 @@ class HomePage extends Page{
     static at = { $("title").text() == "PAIRING MATRIX" }
     static url=""
     static content = {
-        namesList{ $("a", name: "showNameList")}
+        createUser{ $("a", name: "createNameList")}
         pairingRecord{ $("a", name: "savePairingRecord")}
         pairingStaircase{ $("a", name: "showPairingStaircase")}
-
     }
 }

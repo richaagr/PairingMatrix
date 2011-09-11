@@ -7,14 +7,15 @@
         <g:layoutHead />
         <g:javascript library="application" />
     </head>
+
 <body>
 <div id="sidebar">
     <ul>
         
-        <li><g:link controller="nameList" action="show" name="showNameList">NAMES LIST</g:link></li>
-        <br />
+        <li><g:link controller="userList" action="create" name="createNameList">CREATE USER</g:link></li>
+        <br/>
         <li><g:link controller="pairingRecord" action="save" name="savePairingRecord">ENTER PAIRING RECORD</g:link></li>
-        <br />
+        <br/>
         <li><g:link controller="pairingStaircase" action="show" name="showPairingStraircase">PAIRING STAIRCASE</g:link></li>
     </ul>
 </div>

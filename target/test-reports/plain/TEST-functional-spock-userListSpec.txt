@@ -1,21 +1,10 @@
 Testsuite: userListSpec
-Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 11.353 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 19.089 sec
 ------------- Standard Output ---------------
---Output from should show the existing name list when Names List is clicked--
+--Output from should go to create user page when CREATE USER is clicked--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from should show the existing name list when Names List is clicked--
+--Output from should go to create user page when CREATE USER is clicked--
 ------------- ---------------- ---------------
 
-Testcase: should show the existing name list when Names List is clicked took 11.309 sec
-	Caused an ERROR
-Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
-geb.error.UnresolvablePropertyException: Unable to resolve DisplayListPage as content for HomePage, or as a property on it's Navigator context
-	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
-	at geb.Page.propertyMissing(Page.groovy)
-	at geb.Page.getProperty(Page.groovy)
-	at geb.Browser.propertyMissing(Browser.groovy:174)
-	at geb.Browser.getProperty(Browser.groovy)
-	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
-	at userListSpec.should show the existing name list when Names List is clicked(userListSpec.groovy:16)
-
+Testcase: should go to create user page when CREATE USER is clicked took 19.055 sec
