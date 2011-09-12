@@ -16,7 +16,6 @@
         <br/>
         <li><g:link controller="pairingRecord" action="create" name="savePairingRecord">ENTER PAIRING RECORD</g:link></li>
         <br/>
-        <li><g:link controller="pairingStaircase" action="show" name="showPairingStraircase">PAIRING DETAILS</g:link></li>
     </ul>
 </div>
 <div>

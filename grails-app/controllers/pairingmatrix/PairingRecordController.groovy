@@ -6,25 +6,30 @@ class PairingRecordController {
 
     def create = {}
 
-    def show={
-         [pairingList: PairingRecord.findAll()]
+    def show = {
+        [pairingList: PairingRecord.findAll()]
     }
 
     def save = {
         def userName1 = User.findByUserName(params.user1)
         def userName2 = User.findByUserName(params.user2)
         if ((userName1 != null) && (userName2 != null)) {
-            def recordDetail = new PairingRecord(user1: params.user1, user2: params.user2, noOfTimesPaired: params.noOfTimesPaired)
-            if (recordDetail.save(flush: true)) {
-                redirect(action:'show')
+            println(params)
+            if ((PairingRecord.findByUser1AndUser2(params.user1, params.user2)==null) || (PairingRecord.findByUser1AndUser2(params.user2, params.user1)== null)){
+               def recordDetail = new PairingRecord(user1: params.user1, user2: params.user2, noOfTimesPaired: params.noOfTimesPaired)
+                if (recordDetail.save(flush: true)) {
+                    redirect(action: 'show')
+                }
             }
-            else{
-                flash.error = "User Name does not exist"
+            else {
+                def pairing = PairingRecord.findByUser1AndUser2(params.user1, params.user2)
+                pairing.noOfTimesPaired = params.noOfTimesPaired
+                pairing.save(flush: true)
+                redirect(action: 'show')
             }
         }
-    }
-
-    def pairing = {
-
+        else{
+            flash.error ="User name does not exist"
+        }
     }
 }

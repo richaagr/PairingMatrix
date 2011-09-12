@@ -11,6 +11,7 @@ class User {
         userName(nullable: false)
     }
 
+
     String userId
     String userName
 }

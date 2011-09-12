@@ -1,0 +1,5 @@
+package functionalTests
+
+
+class pairingRecordSpec {
+}

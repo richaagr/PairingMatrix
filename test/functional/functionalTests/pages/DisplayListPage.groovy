@@ -7,7 +7,7 @@ class DisplayListPage extends Page{
 
     static url = "userList/show"
     static content={
-    userTable {$("#user-list-table #showList tbody tr").collect {module UserRow, it} }
+    userTable {$("#userListTable #showList tbody tr").collect {module UserRow, it} }
     }
 }
 class UserRow extends Module {

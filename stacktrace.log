@@ -1078,3 +1078,35 @@ userTable.collect { it -> it.userId }.contains("1")
 []        []                          false
 
 	at userListSpec.should display user details when create is clicked(userListSpec.groovy:32)
+2011-09-12 09:17:51,668 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+userTable.collect { it -> it.userId }.contains("1")
+|         |                           |
+[]        []                          false
+
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:33)
+2011-09-12 09:17:51,726 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+userTable.collect { it -> it.userId }.contains("1")
+|         |                           |
+[]        []                          false
+
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:33)
+2011-09-12 12:33:51,305 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+userTable.collect { it -> it.userId }.contains("1")
+|         |                           |
+[]        []                          false
+
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:33)
+2011-09-12 12:33:51,378 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+userTable.collect { it -> it.userId }.contains("1")
+|         |                           |
+[]        []                          false
+
+	at userListSpec.should display user details when create is clicked(userListSpec.groovy:33)
